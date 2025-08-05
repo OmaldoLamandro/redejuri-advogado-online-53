@@ -24,9 +24,9 @@ const Header = () => {
           variant="cta" 
           size="lg" 
           className="font-bold px-6 animate-gentle-pulse"
-          onClick={() => window.open('https://wa.me/5551994922570?text=Ol%C3%A1.%20Vim%20do%20google%20e%20estou%20com%20problemas%20na%20minha%20CNH%20e%20preciso%20de%20assessoria...%20Pode%20me%20ajudar%3F', '_blank')}
+          onClick={() => window.open('https://wa.me/5551994922570?text=Ol%C3%A1.%20Vim%20do%20google%20e%20estou%20com%20problemas%20no%20meu%20casamento%20e%20preciso%20de%20assessoria...%20Pode%20me%20ajudar%3F', '_blank')}
         >
-          CONECTAR COM ADVOGADO
+          FALE COM UM ADVOGADO
         </Button>
       </div>
     </header>

@@ -122,9 +122,9 @@ const HowItWorks = () => {
             variant="outline" 
             size="lg" 
             className="text-xl px-12 py-4 h-auto font-bold bg-white text-primary hover:bg-white/90 border-white animate-gentle-pulse"
-            onClick={() => window.open('https://wa.me/5551994922570?text=Ol%C3%A1.%20Estou%20passando%20por%20problemas%20de%20trai%C3%A7%C3%A3o%2Fdiv%C3%B3rcio%20e%20preciso%20de%20ajuda%20jur%C3%ADdica.%20Podem%20me%20conectar%20com%20um%20advogado%20especialista%3F', '_blank')}
+            onClick={() => window.open('https://wa.me/5551994922570?text=Ol%C3%A1.%20Vim%20do%20google%20e%20estou%20com%20problemas%20no%20meu%20casamento%20e%20preciso%20de%20assessoria...%20Pode%20me%20ajudar%3F', '_blank')}
           >
-            💔 RESOLVER DIVÓRCIO - R$60
+            FALE COM UM ADVOGADO
           </Button>
         </div>
 
