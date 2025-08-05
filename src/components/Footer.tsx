@@ -11,7 +11,7 @@ const Footer = () => {
             </div>
             <p className="text-background/80 leading-relaxed mb-6 max-w-md">
               A plataforma tecnológica que conecta você com advogados especialistas de forma rápida, 
-              segura e acessível. Facilitamos o acesso à consultoria jurídica por apenas R$60.
+              segura e acessível. Facilitamos o acesso à consultoria jurídica por apenas R$50.
             </p>
             <Button 
               variant="secondary" 
@@ -90,7 +90,7 @@ const Footer = () => {
               className="text-lg px-8 py-4 h-auto font-bold shadow-glow animate-gentle-pulse"
               onClick={() => window.open('https://wa.me/5551994922570?text=Ol%C3%A1.%20Vim%20do%20google%20e%20estou%20com%20problemas%20na%20minha%20CNH%20e%20preciso%20de%20assessoria...%20Pode%20me%20ajudar%3F', '_blank')}
             >
-              💬 CONECTAR AGORA - R$60
+              💬 CONECTAR AGORA - R$50
             </Button>
             <span className="text-background/60">✅ Plataforma verificada pela OAB</span>
           </div>

@@ -48,7 +48,7 @@ const HowItWorks = () => {
     {
       icon: CreditCard,
       title: "Preço Único Família",
-      description: "R$60 para qualquer problema familiar, sem taxas extras. Preço justo para proteger seus direitos e patrimônio."
+      description: "R$50 para qualquer problema familiar, sem taxas extras. Preço justo para proteger seus direitos e patrimônio."
     },
     {
       icon: Shield,

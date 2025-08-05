@@ -18,7 +18,7 @@ const Hero = () => {
               Descobriu uma
               <span className="block text-secondary">Traição?</span>
               <span className="block text-2xl md:text-3xl font-normal mt-2 text-white/90">
-                Proteja seus direitos por R$60
+                Proteja seus direitos por R$50
               </span>
             </h1>
             

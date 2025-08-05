@@ -121,7 +121,7 @@ const Services = () => {
               💔 Preço Único para Família
             </h3>
             <p className="text-muted-foreground mb-6">
-              Qualquer problema familiar ou de divórcio custa apenas <strong className="text-primary text-xl">R$60</strong> 
+              Qualquer problema familiar ou de divórcio custa apenas <strong className="text-primary text-xl">R$50</strong> 
               para conectar com um especialista. Sem surpresas, sem taxas ocultas.
             </p>
             <Badge variant="secondary" className="text-lg px-6 py-2 bg-success text-success-foreground">
