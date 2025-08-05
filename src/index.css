@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* RedeJuri Design System - Professional Legal Platform
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 215 25% 27%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 27%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 27%;
+
+    /* RedeJuri brand colors from logo */
+    --primary: 215 25% 27%; /* Dark blue from logo */
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 215 35% 45%;
+
+    /* Orange accent from logo */
+    --secondary: 24 95% 53%; /* Orange from logo */
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 220 13% 96%;
+    --muted-foreground: 215 16% 47%;
+
+    --accent: 24 95% 53%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 24 95% 53%;
+    
+    /* Custom design tokens for RedeJuri */
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+    
+    /* Professional gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(215 25% 27%), hsl(215 35% 45%));
+    --gradient-hero: linear-gradient(135deg, hsl(215 25% 27% / 0.95), hsl(24 95% 53% / 0.1));
+    --gradient-accent: linear-gradient(135deg, hsl(24 95% 53%), hsl(24 95% 63%));
+    
+    /* Elegant shadows */
+    --shadow-elegant: 0 20px 25px -5px hsl(215 25% 27% / 0.1), 0 10px 10px -5px hsl(215 25% 27% / 0.04);
+    --shadow-glow: 0 0 50px hsl(24 95% 53% / 0.3);
+    
+    /* Smooth animations */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 215 28% 17%;
+    --foreground: 0 0% 95%;
+
+    --card: 215 28% 17%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 215 28% 17%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 24 95% 53%; /* Orange becomes primary in dark */
+    --primary-foreground: 215 28% 17%;
+    --primary-glow: 24 95% 63%;
+
+    --secondary: 215 25% 27%; /* Dark blue becomes secondary */
+    --secondary-foreground: 0 0% 95%;
+
+    --muted: 215 28% 25%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 24 95% 53%;
+    --accent-foreground: 215 28% 17%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 215 28% 25%;
+    --input: 215 28% 25%;
+    --ring: 24 95% 53%;
+    --sidebar-background: 215 28% 17%;
+    --sidebar-foreground: 0 0% 95%;
+    --sidebar-primary: 24 95% 53%;
+    --sidebar-primary-foreground: 215 28% 17%;
+    --sidebar-accent: 215 28% 25%;
+    --sidebar-accent-foreground: 0 0% 95%;
+    --sidebar-border: 215 28% 25%;
+    --sidebar-ring: 24 95% 53%;
+    
+    /* Dark mode gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(24 95% 53%), hsl(24 95% 63%));
+    --gradient-hero: linear-gradient(135deg, hsl(215 28% 17% / 0.95), hsl(24 95% 53% / 0.1));
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@keyframes gentle-pulse {
+  0%, 100% { 
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% { 
+    transform: scale(1.02);
+    opacity: 0.95;
+  }
+}
+
+.animate-gentle-pulse {
+  animation: gentle-pulse 2.5s ease-in-out infinite;
+}
