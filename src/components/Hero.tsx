@@ -3,10 +3,8 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { MessageCircle, Clock, Shield } from "lucide-react";
 import heroImage from "@/assets/hero-consultation.jpg";
-
 const Hero = () => {
-  return (
-    <section className="pt-20 pb-16 bg-gradient-hero min-h-screen flex items-center relative overflow-hidden">
+  return <section className="pt-20 pb-16 bg-gradient-hero min-h-screen flex items-center relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-primary/95 via-primary/90 to-secondary/20"></div>
       
       <div className="container mx-auto px-4 relative z-10">
@@ -31,22 +29,10 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <Button 
-                variant="secondary" 
-                size="lg" 
-                className="text-lg px-8 py-4 h-auto font-bold shadow-glow hover:scale-105 transition-all duration-300 animate-gentle-pulse"
-                onClick={() => window.open('https://wa.me/5551994922570?text=Ol%C3%A1.%20Vim%20do%20google%20e%20estou%20com%20problemas%20no%20meu%20casamento%20e%20preciso%20de%20assessoria...%20Pode%20me%20ajudar%3F', '_blank')}
-              >
+              <Button variant="secondary" size="lg" className="text-lg px-8 py-4 h-auto font-bold shadow-glow hover:scale-105 transition-all duration-300 animate-gentle-pulse" onClick={() => window.open('https://wa.me/5551994922570?text=Ol%C3%A1.%20Vim%20do%20google%20e%20estou%20com%20problemas%20no%20meu%20casamento%20e%20preciso%20de%20assessoria...%20Pode%20me%20ajudar%3F', '_blank')}>
                 FALE COM UM ADVOGADO
               </Button>
-              <Button 
-                variant="outline" 
-                size="lg" 
-                className="text-lg px-8 py-4 h-auto bg-white/10 border-white/30 text-white hover:bg-white/20 backdrop-blur"
-                onClick={() => window.open('https://wa.me/5551994922570?text=Ol%C3%A1.%20Vim%20do%20google%20e%20estou%20com%20problemas%20no%20meu%20casamento%20e%20preciso%20de%20assessoria...%20Pode%20me%20ajudar%3F', '_blank')}
-              >
-                FALE COM UM ADVOGADO
-              </Button>
+              
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -73,18 +59,12 @@ const Hero = () => {
 
           <div className="relative">
             <div className="relative z-10 animate-float">
-              <img 
-                src={heroImage} 
-                alt="Advogados especialistas em direito de família e divórcio" 
-                className="rounded-2xl shadow-2xl w-full max-w-lg mx-auto"
-              />
+              <img src={heroImage} alt="Advogados especialistas em direito de família e divórcio" className="rounded-2xl shadow-2xl w-full max-w-lg mx-auto" />
             </div>
             <div className="absolute inset-0 bg-gradient-primary/20 rounded-2xl blur-3xl transform scale-110"></div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
