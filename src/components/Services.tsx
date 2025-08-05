@@ -15,51 +15,51 @@ import {
 const Services = () => {
   const services = [
     {
-      icon: Car,
-      title: "CNH Suspensa",
-      description: "Defesa contra suspensão da CNH por pontuação ou infrações graves. Recursos administrativos e judiciais.",
-      popular: true
-    },
-    {
-      icon: Shield,
-      title: "CNH Cassada",
-      description: "Recuperação de CNH cassada, nova habilitação e defesa em processos de cassação.",
-      popular: true
-    },
-    {
-      icon: FileText,
-      title: "Multas de Trânsito",
-      description: "Recursos contra multas indevidas, contestação de infrações e redução de pontos na CNH.",
+      icon: Heart,
+      title: "Divórcio Consensual",
+      description: "Divórcio em cartório ou judicial quando há acordo. Partilha de bens, guarda dos filhos e pensão alimentícia.",
       popular: true
     },
     {
       icon: Scale,
-      title: "Processo Criminal de Trânsito",
-      description: "Defesa em crimes de trânsito como embriaguez ao volante, lesão corporal e homicídio culposo.",
-      popular: false
+      title: "Divórcio Litigioso",
+      description: "Quando não há acordo. Defesa dos seus direitos na partilha, guarda e pensão através de processo judicial.",
+      popular: true
+    },
+    {
+      icon: Shield,
+      title: "Infidelidade e Traição",
+      description: "Comprovação de infidelidade, proteção de direitos, indenização por dano moral e estratégias legais.",
+      popular: true
     },
     {
       icon: Users,
-      title: "Acidentes de Trânsito",
-      description: "Indenizações por danos materiais e morais, seguro DPVAT e responsabilidade civil.",
+      title: "Guarda dos Filhos",
+      description: "Guarda compartilhada, unilateral, regulamentação de visitas e proteção dos direitos da criança.",
       popular: false
     },
     {
-      icon: Briefcase,
-      title: "Renovação de CNH",
-      description: "Problemas na renovação, exames médicos, restrições e documentação necessária.",
+      icon: FileText,
+      title: "Pensão Alimentícia",
+      description: "Fixação, revisão, execução e exoneração de pensão alimentícia para filhos e ex-cônjuge.",
       popular: false
     },
     {
       icon: Building,
-      title: "CNH para Estrangeiros",
-      description: "Transferência de CNH estrangeira, validação de documentos e processos especiais.",
+      title: "Partilha de Bens",
+      description: "Divisão do patrimônio do casal, avaliação de bens, meação e proteção contra alienação.",
       popular: false
     },
     {
-      icon: Heart,
-      title: "Direitos do Condutor",
-      description: "Orientações sobre direitos, deveres, fiscalização eletrônica e abordagens policiais.",
+      icon: Briefcase,
+      title: "União Estável",
+      description: "Reconhecimento, dissolução e direitos em união estável. Proteção patrimonial e familiar.",
+      popular: false
+    },
+    {
+      icon: Car,
+      title: "Violência Doméstica",
+      description: "Medidas protetivas, denúncia, acompanhamento processual e proteção da vítima e filhos.",
       popular: false
     }
   ];
@@ -69,15 +69,15 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4 text-lg px-4 py-2 border-primary/20">
-            🚗 Problemas com CNH Resolvidos
+            💔 Problemas de Família Resolvidos
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             Especialistas em
-            <span className="block text-primary">Todos os Problemas de CNH</span>
+            <span className="block text-primary">Direito de Família e Divórcio</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Conectamos você com advogados especialistas em direito de trânsito, verificados pela OAB. 
-            Seja qual for seu problema com a CNH, temos o profissional certo para resolver sua situação.
+            Conectamos você com advogados especialistas em direito de família, verificados pela OAB. 
+            Seja traição, divórcio ou qualquer questão familiar, temos o profissional certo para proteger seus direitos.
           </p>
         </div>
 
@@ -114,18 +114,18 @@ const Services = () => {
 
         <div className="text-center mt-12">
           <p className="text-lg text-muted-foreground mb-6">
-            Tem outro problema relacionado à CNH ou trânsito? Nossa plataforma conecta você com especialistas para qualquer situação.
+            Tem outro problema familiar, matrimonial ou de relacionamento? Nossa plataforma conecta você com especialistas para qualquer situação.
           </p>
           <div className="bg-gradient-to-r from-primary/5 to-secondary/5 border border-primary/20 rounded-2xl p-8 max-w-2xl mx-auto shadow-lg">
             <h3 className="text-2xl font-bold text-foreground mb-4">
-              🚗 Preço Único para CNH
+              💔 Preço Único para Família
             </h3>
             <p className="text-muted-foreground mb-6">
-              Qualquer problema com sua CNH custa apenas <strong className="text-primary text-xl">R$60</strong> 
+              Qualquer problema familiar ou de divórcio custa apenas <strong className="text-primary text-xl">R$60</strong> 
               para conectar com um especialista. Sem surpresas, sem taxas ocultas.
             </p>
             <Badge variant="secondary" className="text-lg px-6 py-2 bg-success text-success-foreground">
-              ✅ Especialistas em direito de trânsito verificados pela OAB
+              ✅ Especialistas em direito de família verificados pela OAB
             </Badge>
           </div>
         </div>

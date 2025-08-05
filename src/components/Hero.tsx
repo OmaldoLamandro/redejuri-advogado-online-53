@@ -13,21 +13,21 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
             <Badge variant="secondary" className="mb-6 text-lg px-6 py-3 font-semibold bg-secondary text-secondary-foreground">
-              🚗 Especialistas em CNH e Trânsito
+              💔 Especialistas em Divórcio e Família
             </Badge>
             
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-              Problemas com sua
-              <span className="block text-secondary">CNH?</span>
+              Descobriu uma
+              <span className="block text-secondary">Traição?</span>
               <span className="block text-2xl md:text-3xl font-normal mt-2 text-white/90">
-                Resolvemos por R$60
+                Proteja seus direitos por R$60
               </span>
             </h1>
             
             <p className="text-xl text-white/90 mb-8 leading-relaxed max-w-2xl">
-              <strong>CNH suspensa, cassada ou bloqueada?</strong> Conectamos você com advogados 
-              especialistas em direito de trânsito, verificados pela OAB. Resolva sua situação 
-              de forma rápida e segura, sem sair de casa.
+              <strong>Traição, divórcio ou problemas familiares?</strong> Conectamos você com advogados 
+              especialistas em direito de família, verificados pela OAB. Proteja seus direitos e 
+              patrimônio de forma rápida e segura.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -35,12 +35,12 @@ const Hero = () => {
                 variant="secondary" 
                 size="lg" 
                 className="text-lg px-8 py-4 h-auto font-bold shadow-glow hover:scale-105 transition-all duration-300 animate-gentle-pulse"
-                onClick={() => window.open('https://wa.me/5551994922570?text=Ol%C3%A1.%20Tenho%20problemas%20com%20minha%20CNH%20e%20preciso%20de%20ajuda%20jur%C3%ADdica.%20Podem%20me%20conectar%20com%20um%20advogado%20especialista%3F', '_blank')}
+                onClick={() => window.open('https://wa.me/5551994922570?text=Ol%C3%A1.%20Estou%20passando%20por%20problemas%20de%20trai%C3%A7%C3%A3o%2Fdiv%C3%B3rcio%20e%20preciso%20de%20ajuda%20jur%C3%ADdica.%20Podem%20me%20conectar%20com%20um%20advogado%20especialista%3F', '_blank')}
               >
-                🚗 RESOLVER CNH - R$60
+                💔 RESOLVER DIVÓRCIO - R$60
               </Button>
               <Button variant="outline" size="lg" className="text-lg px-8 py-4 h-auto bg-white/10 border-white/30 text-white hover:bg-white/20 backdrop-blur">
-                📋 Tipos de Problemas CNH
+                📋 Problemas de Família
               </Button>
             </div>
 
@@ -48,13 +48,13 @@ const Hero = () => {
               <Card className="p-4 bg-white/10 border-white/20 backdrop-blur hover:bg-white/15 transition-all duration-300">
                 <div className="flex items-center space-x-3 text-white">
                   <MessageCircle className="h-6 w-6 text-secondary" />
-                  <span className="font-semibold">Atendimento Rápido</span>
+                  <span className="font-semibold">Atendimento Sigiloso</span>
                 </div>
               </Card>
               <Card className="p-4 bg-white/10 border-white/20 backdrop-blur hover:bg-white/15 transition-all duration-300">
                 <div className="flex items-center space-x-3 text-white">
                   <Clock className="h-6 w-6 text-secondary" />
-                  <span className="font-semibold">Especialistas CNH</span>
+                  <span className="font-semibold">Especialistas Família</span>
                 </div>
               </Card>
               <Card className="p-4 bg-white/10 border-white/20 backdrop-blur hover:bg-white/15 transition-all duration-300">
@@ -70,7 +70,7 @@ const Hero = () => {
             <div className="relative z-10 animate-float">
               <img 
                 src={heroImage} 
-                alt="Advogados especialistas em CNH e problemas de trânsito" 
+                alt="Advogados especialistas em direito de família e divórcio" 
                 className="rounded-2xl shadow-2xl w-full max-w-lg mx-auto"
               />
             </div>

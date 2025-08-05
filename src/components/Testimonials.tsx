@@ -8,49 +8,49 @@ const Testimonials = () => {
     {
       name: "Maria Silva",
       location: "São Paulo, SP",
-      area: "Direito do Trabalho",
+      area: "Divórcio Consensual",
       rating: 5,
-      comment: "Precisava de orientação urgente sobre minha demissão. Em 10 minutos a plataforma me conectou com uma advogada especialista que me ajudou a entender todos os meus direitos. Valeu cada centavo dos R$60!",
+      comment: "Descobri uma traição e estava perdida. Em 10 minutos me conectaram com uma advogada especialista que me explicou todos os meus direitos. Me senti acolhida e protegida. Valeu cada centavo!",
       initials: "MS"
     },
     {
       name: "João Santos",
       location: "Rio de Janeiro, RJ", 
-      area: "Direito de Família",
+      area: "Pensão Alimentícia",
       rating: 5,
-      comment: "Estava com dúvidas sobre pensão alimentícia. A conexão foi super rápida e o advogado me explicou tudo de forma clara. Muito melhor que ficar horas procurando escritório.",
+      comment: "Estava com dúvidas sobre pensão após o divórcio. A conexão foi super rápida e o advogado me explicou tudo com muita paciência. Muito melhor que sofrer sozinho.",
       initials: "JS"
     },
     {
       name: "Ana Costa",
       location: "Belo Horizonte, MG",
-      area: "Direito do Consumidor", 
+      area: "Guarda dos Filhos", 
       rating: 5,
-      comment: "Tive problema com compra online e não sabia como resolver. A plataforma me conectou com uma advogada que me orientou sobre meus direitos e como proceder. Consegui resolver tudo online!",
+      comment: "Estava preocupada com a guarda das crianças no divórcio. A advogada me orientou sobre todos os meus direitos como mãe e como proteger os interesses dos meus filhos.",
       initials: "AC"
     },
     {
       name: "Pedro Oliveira",
       location: "Porto Alegre, RS",
-      area: "Direito Civil",
+      area: "Partilha de Bens",
       rating: 5,
-      comment: "Excelente plataforma! Tive dúvidas sobre um contrato de aluguel e fui conectado com um advogado na hora. Muito prático e o profissional foi muito claro nas explicações.",
+      comment: "Excelente plataforma! Tinha dúvidas sobre a divisão dos bens no divórcio. Fui conectado com um especialista na hora que me explicou todo o processo. Muito esclarecedor!",
       initials: "PO"
     },
     {
       name: "Carla Mendes",
       location: "Salvador, BA",
-      area: "Direito Previdenciário",
+      area: "Violência Doméstica",
       rating: 5,
-      comment: "Estava com problemas no INSS e não sabia por onde começar. A conexão com o especialista me economizou tempo e dinheiro. Agora sei exatamente quais documentos preciso.",
+      comment: "Estava em uma situação difícil e não sabia como proceder. A conexão com a especialista me deu coragem e direcionamento. Consegui as medidas protetivas que precisava.",
       initials: "CM"
     },
     {
       name: "Roberto Lima",
       location: "Brasília, DF",
-      area: "Direito de Trânsito",
+      area: "Divórcio Litigioso",
       rating: 5,
-      comment: "Minha CNH foi suspensa e estava desesperado. A plataforma me conectou rapidamente com um advogado que me explicou todas as possibilidades de recurso. Serviço excepcional!",
+      comment: "Meu ex não queria fazer acordo e eu estava desesperado. A plataforma me conectou rapidamente com um advogado que me mostrou todas as estratégias. Serviço excepcional!",
       initials: "RL"
     }
   ];

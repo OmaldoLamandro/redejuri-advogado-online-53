@@ -16,44 +16,44 @@ const HowItWorks = () => {
     {
       number: "01",
       icon: Search,
-      title: "Conte seu Problema com CNH",
-      description: "Descreva sua situação: CNH suspensa, cassada, multas, pontos acumulados ou qualquer problema de trânsito."
+      title: "Conte sua Situação Familiar",
+      description: "Descreva sua situação: traição descoberta, processo de divórcio, guarda dos filhos ou qualquer problema familiar."
     },
     {
       number: "02", 
       icon: Users,
       title: "Conectamos ao Especialista",
-      description: "Instantaneamente conectamos você com um advogado especialista em direito de trânsito, verificado pela OAB e experiente em casos de CNH."
+      description: "Instantaneamente conectamos você com um advogado especialista em direito de família, verificado pela OAB e experiente em casos de divórcio."
     },
     {
       number: "03",
       icon: MessageCircle,
-      title: "Consultoria Especializada",
-      description: "Converse diretamente com o especialista sobre sua CNH. Receba orientações específicas sobre recursos, defesas e estratégias para seu caso."
+      title: "Consultoria Sigilosa",
+      description: "Converse diretamente com o especialista sobre sua situação. Receba orientações específicas sobre seus direitos, estratégias e próximos passos."
     },
     {
       number: "04",
       icon: CheckCircle,
-      title: "Recupere sua CNH",
-      description: "Siga as orientações do especialista para resolver sua situação. Se necessário, ele pode representá-lo nos órgãos de trânsito e tribunais."
+      title: "Proteja seus Direitos",
+      description: "Siga as orientações do especialista para proteger seus direitos e patrimônio. Ele pode representá-lo em cartórios e tribunais se necessário."
     }
   ];
 
   const benefits = [
     {
       icon: Clock,
-      title: "Atendimento Urgente",
-      description: "CNH vencendo? Suspensão iminente? Conectamos você com especialista em minutos, qualquer dia da semana."
+      title: "Atendimento Sigiloso",
+      description: "Situação urgente? Traição descoberta? Conectamos você com especialista em minutos, com total sigilo e discrição."
     },
     {
       icon: CreditCard,
-      title: "Preço Único CNH",
-      description: "R$60 para qualquer problema de CNH, sem taxas extras. Preço justo para recuperar seu direito de dirigir."
+      title: "Preço Único Família",
+      description: "R$60 para qualquer problema familiar, sem taxas extras. Preço justo para proteger seus direitos e patrimônio."
     },
     {
       icon: Shield,
-      title: "Especialistas em Trânsito",
-      description: "Advogados especializados exclusivamente em direito de trânsito, com experiência comprovada em casos de CNH."
+      title: "Especialistas em Família",
+      description: "Advogados especializados exclusivamente em direito de família, com experiência comprovada em divórcio e traição."
     }
   ];
 
@@ -62,15 +62,15 @@ const HowItWorks = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4 text-lg px-4 py-2">
-            🚗 Processo Simples
+            💔 Processo Simples
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Resolva sua CNH
+            Proteja seus Direitos
             <span className="block text-primary">em 4 Passos Simples</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Criamos o processo mais simples para resolver problemas de CNH. Conecte-se com especialistas 
-            em direito de trânsito em minutos e recupere seu direito de dirigir.
+            Criamos o processo mais simples para resolver problemas familiares. Conecte-se com especialistas 
+            em direito de família em minutos e proteja seus direitos e patrimônio.
           </p>
         </div>
 
@@ -112,19 +112,19 @@ const HowItWorks = () => {
 
         <div className="bg-gradient-to-r from-primary to-secondary rounded-3xl p-8 md:p-12 text-center text-white mb-16 shadow-glow">
           <h3 className="text-3xl md:text-4xl font-bold mb-6">
-            Sua CNH Pode Ser Recuperada!
+            Você Não Está Sozinho(a)!
           </h3>
           <p className="text-xl mb-8 opacity-90">
-            Mais de <strong>5.000 motoristas</strong> já recuperaram suas CNHs através da nossa plataforma. 
-            Não fique sem dirigir - conecte-se com um especialista agora mesmo.
+            Mais de <strong>5.000 pessoas</strong> já protegeram seus direitos através da nossa plataforma. 
+            Não sofra em silêncio - conecte-se com um especialista agora mesmo.
           </p>
           <Button 
             variant="outline" 
             size="lg" 
             className="text-xl px-12 py-4 h-auto font-bold bg-white text-primary hover:bg-white/90 border-white animate-gentle-pulse"
-            onClick={() => window.open('https://wa.me/5551994922570?text=Ol%C3%A1.%20Tenho%20problemas%20com%20minha%20CNH%20e%20preciso%20de%20ajuda%20jur%C3%ADdica.%20Podem%20me%20conectar%20com%20um%20advogado%20especialista%3F', '_blank')}
+            onClick={() => window.open('https://wa.me/5551994922570?text=Ol%C3%A1.%20Estou%20passando%20por%20problemas%20de%20trai%C3%A7%C3%A3o%2Fdiv%C3%B3rcio%20e%20preciso%20de%20ajuda%20jur%C3%ADdica.%20Podem%20me%20conectar%20com%20um%20advogado%20especialista%3F', '_blank')}
           >
-            🚗 RESOLVER CNH - R$60
+            💔 RESOLVER DIVÓRCIO - R$60
           </Button>
         </div>
 
