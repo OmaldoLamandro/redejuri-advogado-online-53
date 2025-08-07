@@ -15,8 +15,9 @@ const Hero = () => {
             </Badge>
             
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-              Descobriu uma
-              <span className="block text-secondary">Traição?</span>
+              Faça uma Vídeo Chamada
+              <span className="block text-secondary">de 1 Hora com um Advogado</span>
+              <span className="block text-white/90">Especialista no Direito Familiar</span>
               <span className="block text-2xl md:text-3xl font-normal mt-2 text-white/90">
                 Proteja seus direitos por R$50
               </span>
