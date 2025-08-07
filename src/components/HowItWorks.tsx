@@ -110,18 +110,18 @@ const HowItWorks = () => {
           })}
         </div>
 
-        <div className="bg-gradient-to-r from-primary to-secondary rounded-3xl p-8 md:p-12 text-center text-white mb-16 shadow-glow">
-          <h3 className="text-3xl md:text-4xl font-bold mb-6">
+        <div className="bg-gradient-to-r from-primary to-secondary rounded-2xl md:rounded-3xl p-6 sm:p-8 md:p-12 text-center text-white mb-16 shadow-glow">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 leading-tight">
             Você Não Está Sozinho(a)!
           </h3>
-          <p className="text-xl mb-8 opacity-90">
+          <p className="text-lg sm:text-xl mb-6 md:mb-8 opacity-90 leading-relaxed max-w-3xl mx-auto">
             Mais de <strong>5.000 pessoas</strong> já protegeram seus direitos através da nossa plataforma. 
             Não sofra em silêncio - conecte-se com um especialista agora mesmo.
           </p>
           <Button 
             variant="outline" 
             size="lg" 
-            className="text-xl px-12 py-4 h-auto font-bold bg-white text-primary hover:bg-white/90 border-white animate-gentle-pulse"
+            className="text-lg sm:text-xl px-8 sm:px-12 py-3 sm:py-4 h-auto font-bold bg-white text-primary hover:bg-white/90 border-white animate-gentle-pulse w-full sm:w-auto"
             onClick={() => window.open('https://wa.me/5551994922570?text=Ol%C3%A1.%20Vim%20do%20google%20e%20estou%20com%20problemas%20no%20meu%20casamento%20e%20preciso%20de%20assessoria...%20Pode%20me%20ajudar%3F', '_blank')}
           >
             FALE COM UM ADVOGADO
